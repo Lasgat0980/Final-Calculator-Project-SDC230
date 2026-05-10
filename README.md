@@ -1,4 +1,56 @@
 # Final-Calculator-Project-SDC230
+Dickens Math-Pro v5.0
+Developer: Lastazia Dickens
+
+Date: May 8, 2026
+
+Assignment: SDC230 Final Project - Integrated Calculator
+
+1. Project Overview
+The Dickens Math-Pro v5.0 is a robust Java-based console application designed to provide high-precision mathematical calculations. This project demonstrates advanced software development concepts, including Object-Oriented Programming (OOP), Custom Exception Handling, and Dynamic Memory Management.
+
+2. Core Features
+Standard Arithmetic: Supports Addition, Subtraction, Multiplication, and Division with decimal precision.
+
+Multi-Value Processing: Allows users to input a sequence of numbers (e.g., 10 20 5.5) to perform batch calculations in one step.
+
+Persistent Session Memory: A "Vault" system that stores up to 10 full mathematical operations (e.g., 5.00 + 5.00 = 10.000) for later recall.
+
+Memory Management: Users can view their calculation history or wipe the vault clean to start fresh.
+
+3. Technical Architecture
+The application is built using a modular approach to ensure code maintainability:
+
+App.java (The Controller): Manages the user interface, menu navigation, and the coordination between math logic and memory storage.
+
+Division.java (The Logic Class): A specialized class dedicated to division that implements explicit error checking.
+
+CalculationMemory.java (The Data Class): Encapsulates an ArrayList to manage the storage and retrieval of session data.
+
+4. Robustness & Fail-Safes
+This application is designed to handle "messy" user input without crashing:
+
+Input Validation: Uses InputMismatchException to catch letters or symbols entered into numeric fields.
+
+Zero-Division Protection: Implements ArithmeticException to provide a friendly warning instead of a system failure when dividing by zero.
+
+Scanner Buffer Management: Specifically clears the scanner buffer after errors to prevent the "infinite loop" bug common in console apps.
+
+Collection Limits: Hard-coded constraints prevent the memory from exceeding 10 entries, simulating hardware memory limits.
+
+5. How to Run
+Open your terminal or command prompt.
+
+Compile all files:
+
+Bash
+javac App.java Division.java CalculationMemory.java
+Launch the application:
+
+Bash
+java App
+
+
 Project Name: Dickens Math-Pro v5.0
 
 Project Description
