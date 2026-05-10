@@ -1,33 +1,55 @@
 # Final-Calculator-Project-SDC230
-What is this project?
-The Dickens Math-Pro is a digital calculator I built for my final project. My goal was to create a tool that isn't just good at math, but is also smart enough to handle mistakes without crashing. It can do basic math, handle long lists of numbers and operations at one time, and remembers your work so you don't have to write it down.
+Project Name: Dickens Math-Pro v5.0
+Project Description
+The Dickens Math-Pro v5.0 is a comprehensive exploration of fundamental Java programming concepts and software development practices. The goal was to create a standalone, functional application that demonstrates proficiency in solo project management, object-oriented coding, and version control using GitHub.
 
-Cool Features I Built:
-The Memory Vault: Every time you do a math problem, the app asks if you want to save it. It can hold up to 10 full equations (like 8 + 2 = 10).
+Project Tasks
+Task 1: Set up the development environment
 
-Multi-Value Mode: Instead of doing one problem at a time, you can type a whole string of numbers (like 10 20 30 40) and the app will add or multiply them all at once.
+Configured Visual Studio Code and Java Development Kit (JDK).
 
-Safety Net: I spent a lot of time making sure this app doesn't crash. If you accidentally type a letter instead of a number, or try to divide by zero, the app will just give you a friendly warning and let you try again.
+Initialized local and remote Git repositories for version control.
 
-Clean Slate: I added a Clear Memory button so you can wipe the vault and start over whenever you want or you can clear it by restarting the program.
+Task 2: Plan the project
 
-How the Code is Organized (The "Parts"):
-I split the program into three files to keep it organized:
+Defined the project scope, including requirements for basic math, multi-value parsing, and session memory.
 
-App.java: This is the "brain" or the manager. it handles the menus and talks to the user.
+Created a development timeline to meet graduation and submission milestones.
 
-Division.java: This is a specialist file that only handles division. I kept it separate to make sure the "divide by zero" safety check was really reliable.
+Task 3: Implement core features
 
-CalculationMemory.java: This is like a digital notebook. It handles saving, showing, and deleting your history.
+Developed the main App controller to manage the Windows console interface.
 
-How to use it:
-Open your terminal.
+Built the Division and CalculationMemory classes to handle logic and data storage.
 
-Compile the code (this turns the text into a program):
-javac App.java Division.java CalculationMemory.java
+Task 4: Test the application
 
-Run it:
-java App
+Conducted unit testing on arithmetic operations and exception handling.
 
-What I learned:
-Building this taught me how to use Try-Catch blocks (to stop crashes) and how to use Lists to store data. It also helped me understand how different files in Java "talk" to each other to make a complete application.
+Debugged input validation logic to ensure the program remains stable during user errors.
+
+Task 5: Document the project
+
+Created a comprehensive README file to guide users and developers.
+
+Documented the modular approach used to separate math logic from data storage.
+
+Task 6: Finalize and submit
+
+Refined code comments and formatting for professional presentation.
+
+Uploaded the final version to GitHub and prepared the submission walkthrough.
+
+Project Skills Learned
+Independent software development and debugging in Java.
+
+Git and GitHub for version control and repository management.
+
+Designing crash-proof applications using advanced Exception Handling.
+
+Technical writing and project documentation.
+
+Time management and project planning as a solo developer.
+
+Language Used
+Java: Selected for its strict object-oriented structure, which allowed me to practice encapsulation and maintainable code design.
