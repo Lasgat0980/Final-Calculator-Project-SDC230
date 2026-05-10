@@ -1,6 +1,8 @@
 # Final-Calculator-Project-SDC230
 Project Name: Dickens Math-Pro v5.0
+
 Project Description
+
 The Dickens Math-Pro v5.0 is a comprehensive exploration of fundamental Java programming concepts and software development practices. The goal was to create a standalone, functional application that demonstrates proficiency in solo project management, object-oriented coding, and version control using GitHub.
 
 Project Tasks
