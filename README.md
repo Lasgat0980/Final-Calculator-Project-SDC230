@@ -38,17 +38,6 @@ Scanner Buffer Management: Specifically clears the scanner buffer after errors t
 
 Collection Limits: Hard-coded constraints prevent the memory from exceeding 10 entries, simulating hardware memory limits.
 
-5. How to Run
-Open your terminal or command prompt.
-
-Compile all files:
-
-Bash
-javac App.java Division.java CalculationMemory.java
-Launch the application:
-
-Bash
-java App
 
 
 Project Name: Dickens Math-Pro v5.0
@@ -107,3 +96,6 @@ Time management and project planning as a solo developer.
 
 Language Used
 Java: Selected for its strict object-oriented structure, which allowed me to practice encapsulation and maintainable code design.
+
+Link to Project (YouTube): https://youtu.be/_zaWpV0VKaU
+
